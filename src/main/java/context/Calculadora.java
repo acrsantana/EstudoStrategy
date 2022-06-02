@@ -12,4 +12,8 @@ public class Calculadora {
     public float calcula(float numero1, float numero2){
         return operação.calculaOperacao(numero1, numero2);
     }
+
+    public void setOperação(Operação operação) {
+        this.operação = operação;
+    }
 }
